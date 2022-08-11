@@ -1,0 +1,41 @@
+File Name [Obstacle Dataset] :
+
+Classes ["stop_sign","person","bicycle","bus","truck","car","motorbike","reflective_cone","ashcan","warning_column","spherical_roadblock","pole","dog","tricycle","fire_hydrant"] Need to underline the category name
+
+This obstacle dataset follows the format of the VOC dataset.
+
+http://host.robots.ox.ac.uk/pascal/VOC/
+
+The dataset contains xml files in VOC format and .txt files for yolo training
+
+VOC format.
+-JPEGImages
+-Annotations
+-ImageSets
+　--Main
+　　---train.txt
+　　---test.txt
+　　---val.txt
+According to pictures and labels,as follows.
+　　img-train for training Contains 5066 images　　ann-train
+　　img-test for test Contains 1583 images　　　　　ann-test
+　　img-val for validation Contains 1266 images　　　ann-val
+
+yolo format．
+lables　　　　#all picture labels<br>
+label-train　　#labels for training<br>
+label-test　　　#labels for testing<br>
+label-val　　　　#labels for validation<br>
+This dataset contains images from the VOC dataset, the COCO dataset, and the TT100K dataset,It also contains some pictures collected by the author's team in the field.
+
+
+https://link.springer.com/article/10.1007/s10209-021-00837-9 
+~~~~/// article on dataset
+
+
+https://drive.google.com/drive/folders/1ksPQTc1BkBljqLqEtIWmXFnkgHWs9Hqv
+~~~~/// dataset link
+
+
+
+

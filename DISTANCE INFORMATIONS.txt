@@ -1,0 +1,3 @@
+https://towardsdatascience.com/vehicle-detection-and-distance-estimation-7acde48256e1
+
+[For distance estimation used in vehicles]
